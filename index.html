@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Visitekaartje van {NAAM}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="js/app.js" defer></script>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Visitekaartje van Ralf</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <div id="business-card">
+      <!-- header -->
+      <header>
+        <img
+          src="https://avatars.githubusercontent.com/u/55750121?s=460&u=513e912aabf1c0f243452518e8dd740a31b5b164&v=4"
+          alt="Afbeelding van Ralf"
+        />
+
+        <h1>
+          Hey, ik ben <span id="name">{name}</span>
+          <img
+            id="rotate-emoji"
+            src="https://i.pinimg.com/originals/85/7f/d7/857fd79dfd7bd025e4cbb2169cd46e03.png"
+            alt=""
+          />
+        </h1>
+        <p id="bio">{bio}</p>
+      </header>
+
+      <!-- main -->
+      <main>
+        <h2>Mijn interesses zijn</h2>
+        <ul>
+          <li>
+            <p id="interestOne">{sport}</p>
+          </li>
+
+          <li>
+            <p id="interestTwo">{muziek}</p>
+          </li>
+        </ul>
+      </main>
+
+      <!-- footer -->
+      <footer>
+        <ul id="contact">
+          <li>
+            <img
+              src="https://www.svgrepo.com/show/303615/github-icon-1-logo.svg"
+              alt=""
+            />
+            <a href="" id="githubHandle" target="_blank">{githubHandle}</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
 </html>

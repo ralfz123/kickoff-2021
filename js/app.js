@@ -61,7 +61,7 @@ githubHandleItem.href = 'https://github.com/' + putData.githubHandle;
 
 // ------
 
-// this code works
+// // this code works
 // const path = `https://601803ee971d850017a3f625.mockapi.io/members`
 
 // async function main() {
@@ -104,7 +104,7 @@ githubHandleItem.href = 'https://github.com/' + putData.githubHandle;
 //           css: 4,
 //           js: 2
 //         },
-//         bio: 'Ik ben een CMD-student en ik ben 21 jaar. Bovendien ben ik door de jaren heen echt gaan houden van HTML, CSS en JavaScript schrijven. Vakken als Project Tech en Tech-Track heb ik dan ook zeker gevolgd'
+//         bio: '👋 Ik ben een CMD-student en ik ben 21 jaar. Bovendien ben ik door de jaren heen echt gaan houden van HTML, CSS en JavaScript schrijven. Vakken als Project Tech en Tech-Track heb ik dan ook zeker gevolgd!'
 //       }
 //     } : false).filter(item => typeof item === 'object'))
 

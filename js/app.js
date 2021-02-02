@@ -19,7 +19,7 @@ const putData = {
     'https://avatars.githubusercontent.com/u/55750121?s=460&u=513e912aabf1c0f243452518e8dd740a31b5b164&v=4',
   githubHandle: 'ralfz123',
   bio:
-    'Ik ben een CMD-student en ik ben 21 jaar. Bovendien ben ik door de jaren heen echt gaan houden van HTML, CSS en JavaScript schrijven. Vakken als Project Tech en Tech-Track heb ik dan ook zeker gevolgd',
+    'Ik ben een CMD-student en ik ben 21 jaar. Bovendien ben ik door de jaren heen echt gaan houden van HTML, CSS en JavaScript schrijven. Vakken als Project Tech en Tech-Track heb ik dan ook zeker gevolgd!',
   other: {
     sport: 'Fitness',
     muziek: 'Hip-Hop',

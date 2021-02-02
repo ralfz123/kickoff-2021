@@ -15,7 +15,8 @@ const putData = {
   name: 'Ralf',
   prefix: '',
   surname: 'Zonneveld',
-  mugshot: '',
+  mugshot:
+    'https://avatars.githubusercontent.com/u/55750121?s=460&u=513e912aabf1c0f243452518e8dd740a31b5b164&v=4',
   githubHandle: 'ralfz123',
   bio:
     'Ik ben een CMD-student en ik ben 21 jaar. Bovendien ben ik door de jaren heen echt gaan houden van HTML, CSS en JavaScript schrijven. Vakken als Project Tech en Tech-Track heb ik dan ook zeker gevolgd',
@@ -42,12 +43,14 @@ postData(`${url}/squads/1/teams/3/members/id`, putData).then((data) => {
 });
 
 // Replacing HTML elements with data - mockAPI does not work because over rate limit
+const imageItem = document.getElementById('mugshot');
 const nameItem = document.getElementById('name');
 const bioItem = document.getElementById('bio');
 const interestOneItem = document.getElementById('interestOne');
 const interestTwoItem = document.getElementById('interestTwo');
 const githubHandleItem = document.getElementById('githubHandle');
 
+mugshot.src = putData.mugshot;
 nameItem.innerHTML = putData.name;
 bioItem.innerHTML = putData.bio;
 interestOneItem.innerHTML = putData.other.sport;
